@@ -6,6 +6,7 @@
  * @version 0.1
  * @author keesiemeijer
  */
+
 if ( !class_exists( 'WP_Settings_Form_Fields' ) ) {
 	class WP_Settings_Form_Fields {
 

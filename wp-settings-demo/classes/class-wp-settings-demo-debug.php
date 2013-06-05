@@ -11,9 +11,10 @@
  * @version 0.1
  * @author keesiemeijer
  */
+
 if ( !class_exists( 'WP_Settings_Demo_Debug' ) ) {
 	class WP_Settings_Demo_Debug {
-		
+
 		var $version = 0.1;
 		var $debug;
 		var $fields;
@@ -30,8 +31,8 @@ if ( !class_exists( 'WP_Settings_Demo_Debug' ) ) {
 
 		/**
 		 * Displays a settings error if the pages or fields array didn't pass validation.
-		 * 
-		 * called on the 'admin_notices' action hook 
+		 *
+		 * called on the 'admin_notices' action hook
 		 */
 		public function doing_it_wrong() {
 
@@ -41,9 +42,9 @@ if ( !class_exists( 'WP_Settings_Demo_Debug' ) ) {
 				if ( '' != $page ) {
 					$error_msg = __( 'Error: Plugin could not be initialized.', 'wp-settings-demo' );
 					add_settings_error( 'invalid', 'text', $error_msg, 'error' );
-					// use $this->debug from the 'WP_Settings_Demo_Settings' class to show more error information. 					
+					// use $this->debug from the 'WP_Settings_Demo_Settings' class to show more error information.
 					// trigger an error if WP_DEBUG is set to true
-					// trigger_error( $page ); 
+					// trigger_error( $page );
 				}
 			}
 		}
@@ -182,7 +183,10 @@ if ( !class_exists( 'WP_Settings_Demo_Debug' ) ) {
 			return true;
 		}
 
+
 	}
+
+
 	$debug = new WP_Settings_Demo_Debug();
 }
 ?>

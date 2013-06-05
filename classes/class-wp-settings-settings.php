@@ -99,7 +99,7 @@ if ( !class_exists( 'WP_Settings_Settings' ) ) {
 
 			$this->pages = (array) $pages;
 			$this->fields = (array) $fields;
-			$this->page_hook = trim ( sanitize_title( (string) $page_hook ) );
+			$this->page_hook = trim( sanitize_title( (string) $page_hook ) );
 
 			// debug strings don't use Gettext functions for translation.
 			if ( !class_exists( 'WP_Settings_Form_Fields' ) )
