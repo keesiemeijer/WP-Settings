@@ -22,7 +22,7 @@ This wrapper consists of only two classes. Include them in your plugin or theme.
 
 ***
 
-Example of settings with a validation error:
+Example of an admin page with a validation error:
 
 ![Screenshot of validation eror](/screenshots/wp_settings_detail.png "")
 
@@ -44,7 +44,7 @@ See the full settings page [here](/screenshots/wp_settings.png "")
 
 It's also recommended to rename the class file names to adhere to WordPress <a href="http://make.wordpress.org/core/handbook/coding-standards/php/#naming-conventions">naming conventions</a>.
 
-See the example below and the [example plugin](https://github.com/keesiemeijer/WP-Settings/blob/master/example-plugin) on how to implement the settings classes.
+See the example below and the [example plugin](/example-plugin "") on how to implement the settings classes.
 
 ### Example
 
