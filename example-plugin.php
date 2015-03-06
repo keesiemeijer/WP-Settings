@@ -276,7 +276,7 @@ class WP_Settings_Example {
 			add_settings_error(
 				'section_one_text', // Form field id.
 				'texterror', // Error id.
-				__( 'Error: please submit your email.', 'plugin-text-domain' ), // Error message.
+				__( 'Error: please enter some text.', 'plugin-text-domain' ), // Error message.
 				'error' // Type of message. Use 'error' or 'updated'.
 			);
 		}
