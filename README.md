@@ -44,7 +44,7 @@ See the full settings page [here](/screenshots/wp_settings.png "")
 
 It's also recommended to rename the class file names to adhere to WordPress <a href="http://make.wordpress.org/core/handbook/coding-standards/php/#naming-conventions">naming conventions</a>.
 
-See the example below and the [example plugin](/example-plugin "") on how to implement the settings classes.
+See the example below and the [example plugin](/example-plugin.php "") on how to implement the settings classes.
 
 ### Example
 
